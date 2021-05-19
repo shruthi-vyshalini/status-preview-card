@@ -1,0 +1,118 @@
+*{
+  padding:0px;
+  margin:0px;
+
+}
+body{
+    background-color: hsl(233, 47%, 7%);
+    border-radius: 50px;
+}
+.big-container {
+  margin: 80px ;
+  padding: 0px;
+  height: 450px;
+  width: 1200px;
+  display: flex;
+border-radius: 15px;
+box-shadow:0 15px 8px -8px hsl(220, 20%,10%);
+}
+
+
+.left-container{
+height: 450px;
+width: 600px;
+background-color: hsl(244, 38%, 16%);
+border-radius: 15px 0px 0px 15px;
+
+}
+
+
+.right-container{
+  height: 450px;
+  width: 600px;
+  background-image: url('../images/image-header-desktop.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position:relative;
+  border-radius: 0px 15px 15px 0px;
+}
+.filter{
+  background-color: rgba(172, 92, 219, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* mom is here  */
+    border-radius: 0px 15px 15px 0px;
+}
+span{
+  display: inline;
+  color:hsl(277, 64%, 61%);
+}
+h1 {
+  display: block;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 50px 50px 20px 70px;
+  color:  hsl(0, 0%, 100%);
+  font-family: 'Inter', sans-serif;
+
+}
+
+h2{
+  margin: 0;
+  color: white;
+
+}
+
+.image-desktop{
+  width: 600px;
+  height: 450px;
+  background: url(C:\Users\vyshalini\Downloads\stats-preview-card-component-main\stats-preview-card-component-main\images\image-header-desktop.jpg);
+background-color: rgba(248, 247, 216, 0.7);
+border-radius: 0px 15px 15px 0px;
+
+}
+p{
+  margin: 30px;
+  font-size: 15px;
+  font-weight:lighter;
+  color: hsla(0, 0%, 100%, 0.6);
+  font-family: 'Inter', sans-serif;
+  margin: 0px 170px 10px 70px;
+  line-height: 2;
+
+}
+
+.big-box{
+
+  height:100px;
+  display: flex;
+  padding: 80px 40px 0 40px;
+
+}
+.box{
+ font-size: 20px;
+  font-weight: bold;
+  margin: 0px;
+  padding-left:33px;
+  height :auto;
+  width : 200px;
+
+}
+.sub-heading{
+
+  font-size: bolder;
+  color:  hsl(0, 0%, 100%);
+  font-family: 'Inter', sans-serif;
+  font-weight: 700 ;
+  font-size: 25px;
+}
+.sub-content{
+  font-size: 12px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: normal;
+  color: hsla(0, 0%, 100%, 0.6)
+}
+.pointer {cursor: pointer;}
